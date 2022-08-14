@@ -1,0 +1,124 @@
+/*--------------------------------------------------------------
+# base
+--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+body {
+	position: relative;
+	font-family: "Quicksand", sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.6;
+	background: var(--background-color);
+	color: var(--text-color);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	&:hover {
+		color: var(--primary-color);
+	}
+
+	-webkit-transition: all 0.3s ease-out 0s;
+
+	-o-transition: all 0.3s ease-out 0s;
+
+	transition: all 0.3s ease-out 0s;
+	text-decoration: none;
+
+	&:focus,
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+i,
+span,
+a {
+	display: inline-block;
+}
+
+audio,
+img,
+svg,
+video {
+	vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: var(--title-color);
+}
+p {
+	margin: 0;
+}
+
+section {
+	overflow: hidden;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+
+.error {
+	color: #ff4500;
+}
+
+.success {
+	color: green;
+}
+.page-logo {
+	height: 85px;
+	@media only screen and (max-width: 767px) {
+		height: 76px;
+	}
+}
+
+.sec-t {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  @media only screen and (max-width: 767px) {
+   margin-bottom: 20px;
+  }
+	h2 {
+		font-size: 40px;
+		font-weight: 700;
+    margin-right: 20px;
+    @media only screen and (max-width: 767px) {
+     font-size: 34px;
+    }
+
+	}
+  .line{
+    width: 100%;
+    max-width: 300px;
+    height: 1px;
+    background-color: var(--text-color);
+    margin-top: 8px;
+    @media only screen and (max-width: 767px) {
+     max-width: 180px;
+    }
+    @media only screen and (max-width: 536px) {
+     display: none;
+    }
+
+  }
+}
