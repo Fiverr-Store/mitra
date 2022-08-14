@@ -163,7 +163,7 @@ h6 a {
   width: 100%;
   max-width: 300px;
   height: 1px;
-  background-color: var(--text-color);
+  background-color: #1537f7;
   margin-top: 8px;
 }
 @media only screen and (max-width: 767px) {
@@ -447,8 +447,8 @@ h6 a {
   width: 2px;
   height: 40px;
   opacity: 0;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 .experience .custom-tabs .nav-link.active {
   color: var(--primary-color);
@@ -460,7 +460,7 @@ h6 a {
   margin-bottom: 20px;
 }
 .experience .abt-t h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 6px;
 }
@@ -469,9 +469,12 @@ h6 a {
 }
 @media only screen and (max-width: 991px) {
   .experience .abt-t h3 {
-    font-size: 23px;
+    font-size: 21.5px;
     margin-bottom: 4px;
   }
+}
+.experience .abt-t p {
+  font-size: 15px;
 }
 .experience .abt-list {
   list-style: none;
