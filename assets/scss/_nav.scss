@@ -1,4 +1,18 @@
 /*--------------------------------------------------------------
+# logo-nav
+--------------------------------------------------------------*/
+.logo-nav{
+  padding-top: 20px;
+  .navbrand{
+    display: inline-block;
+    text-decoration: none;
+    img{
+      height: 30px;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
 # side-nav
 --------------------------------------------------------------*/
 
@@ -10,7 +24,7 @@
    right: 2%;
    border-bottom: 4%;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 767px) {
    display: none;
   }
 }
