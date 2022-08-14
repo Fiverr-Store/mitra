@@ -390,6 +390,9 @@ h6 a {
     font-size: 16px;
   }
 }
+.about .abt-text p strong {
+  color: var(--primary-color);
+}
 .about .img-profile {
   width: 300px;
   height: 300px;
