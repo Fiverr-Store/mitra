@@ -273,8 +273,14 @@ h6 a {
 @media only screen and (max-width: 767px) {
   .hero-area {
     min-height: auto;
-    padding-top: 80px;
+    padding-top: 70px;
     padding-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .hero-area {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 .hero-area .hero-inner h1 {
