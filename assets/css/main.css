@@ -389,6 +389,19 @@ h6 a {
     font-size: 16px;
   }
 }
+.about .img-profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  -webkit-filter: grayscale(100%) contrast(1);
+          filter: grayscale(100%) contrast(1);
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.about .img-profile:hover {
+  -webkit-filter: none;
+          filter: none;
+}
 
 /*--------------------------------------------------------------
 # experience
