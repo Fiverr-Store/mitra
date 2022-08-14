@@ -210,6 +210,30 @@ h6 a {
     display: none;
   }
 }
+.side-nav .social-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: end;
+  margin-top: 30px;
+}
+.side-nav .social-nav li {
+  display: inline-block;
+}
+.side-nav .social-nav li:not(:last-child) {
+  margin-right: 4px;
+}
+.side-nav .social-nav li a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: 18px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.side-nav .social-nav li a:hover {
+  opacity: 0.6;
+}
 
 .nav-custom {
   text-align: end;
@@ -229,31 +253,6 @@ h6 a {
   font-weight: 600;
   letter-spacing: 0.4px;
   color: var(--primary-color);
-}
-
-.social-nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: end;
-  margin-top: 30px;
-}
-.social-nav li {
-  display: inline-block;
-}
-.social-nav li:not(:last-child) {
-  margin-right: 4px;
-}
-.social-nav li a {
-  text-decoration: none;
-  display: inline-block;
-  color: var(--primary-color);
-  font-size: 18px;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-.social-nav li a:hover {
-  opacity: 0.6;
 }
 
 /*--------------------------------------------------------------
@@ -393,8 +392,6 @@ h6 a {
   width: 300px;
   height: 300px;
   border-radius: 100%;
-  -webkit-filter: grayscale(100%) contrast(1);
-          filter: grayscale(100%) contrast(1);
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   display: block;
@@ -406,8 +403,8 @@ h6 a {
   }
 }
 .about .img-profile:hover {
-  -webkit-filter: none;
-          filter: none;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
 
 /*--------------------------------------------------------------
@@ -509,5 +506,35 @@ h6 a {
 }
 .main-footer p {
   font-size: 14px;
+}
+.main-footer .social-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 5px;
+  /** Medium devices (tablets, 768px and up) **/
+}
+@media (min-width: 768px) {
+  .main-footer .social-nav {
+    display: none;
+  }
+}
+.main-footer .social-nav li {
+  display: inline-block;
+}
+.main-footer .social-nav li:not(:last-child) {
+  margin-right: 4px;
+}
+.main-footer .social-nav li a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: 18px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.main-footer .social-nav li a:hover {
+  opacity: 0.6;
 }
 /*# sourceMappingURL=main.css.map */
