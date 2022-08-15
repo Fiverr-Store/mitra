@@ -16,6 +16,12 @@
       strong{
         color: var(--primary-color);
       }
+      a{
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 700;
+        color: var(--primary-color);
+      }
     }
   }
   .img-profile{
@@ -112,11 +118,10 @@
       }
       display: flex;
       i{
-        font-size: 13px;
+        font-style: normal;
+        font-size: 18px;
         color: var(--primary-color);
-        position: relative;
-        top: 7px;
-        margin-right: 10px;
+        margin-right: 8px;
       }
       span{
         font-weight: 500;

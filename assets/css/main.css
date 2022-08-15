@@ -399,6 +399,12 @@ h6 a {
 .about .abt-text p strong {
   color: var(--primary-color);
 }
+.about .abt-text p a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  color: var(--primary-color);
+}
 .about .img-profile {
   width: 300px;
   height: 300px;
@@ -500,11 +506,10 @@ h6 a {
   margin-bottom: 10px;
 }
 .experience .abt-list li i {
-  font-size: 13px;
+  font-style: normal;
+  font-size: 18px;
   color: var(--primary-color);
-  position: relative;
-  top: 7px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 .experience .abt-list li span {
   font-weight: 500;
