@@ -457,6 +457,7 @@ h6 a {
   font-size: 16px;
   font-weight: 600;
   position: relative;
+  text-transform: uppercase;
 }
 .experience .custom-tabs .nav-link:not(:last-child) {
   margin-bottom: 16px;
