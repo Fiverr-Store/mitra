@@ -95,4 +95,9 @@ function init() {
 	new WOW().init();
 
 
+  //========= glightbox
+const glightbox = GLightbox({
+  selector: ".glightbox",
+});
+
 })();
