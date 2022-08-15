@@ -285,7 +285,11 @@ h6 a {
 @media only screen and (max-width: 482px) {
   .hero-area {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .hero-area .hero-inner h1 {
@@ -437,7 +441,7 @@ h6 a {
 }
 @media only screen and (max-width: 767px) {
   .experience {
-    padding: 40px 0px;
+    padding: 70px 0px;
   }
 }
 .experience .custom-tabs {
