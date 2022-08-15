@@ -588,6 +588,47 @@ h6 a {
 }
 
 /*--------------------------------------------------------------
+#
+--------------------------------------------------------------*/
+.cards-sec {
+  padding-top: 50px;
+}
+.cards-sec .card-single {
+  background-color: #112240;
+  -webkit-box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+          box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  padding: 30px 30px;
+  border-radius: 10px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.cards-sec .card-single h3 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.cards-sec .card-single p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.cards-sec .card-single .card-tags {
+  margin-top: auto;
+  padding-top: 15px;
+}
+.cards-sec .card-single .card-tags span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+  font-size: 12px;
+  color: #8892b0;
+}
+
+/*--------------------------------------------------------------
 # main-footer
 --------------------------------------------------------------*/
 .main-footer {
