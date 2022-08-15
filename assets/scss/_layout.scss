@@ -205,6 +205,9 @@ padding: 40px 0px 60px 0px;
 
 .cards-sec{
   padding-top: 50px;
+  @media only screen and (max-width: 767px) {
+   padding-top: 40px;
+  }
   .card-single{
     background-color: #112240;
     box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
