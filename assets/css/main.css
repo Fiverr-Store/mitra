@@ -194,6 +194,32 @@ h6 a {
 }
 
 /*--------------------------------------------------------------
+# custom-modal
+--------------------------------------------------------------*/
+.custom-modal .modal-content {
+  background-color: #112240;
+  border: 0;
+}
+.custom-modal .modal-header {
+  border-color: #283f67;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.custom-modal .modal-header h5 {
+  font-size: 17px;
+}
+.custom-modal .btn-close-1 {
+  border: 0;
+  outline: none;
+  background: none;
+  color: red;
+  font-size: 20px;
+}
+.custom-modal p {
+  font-size: 15px;
+}
+
+/*--------------------------------------------------------------
 # logo-nav
 --------------------------------------------------------------*/
 .logo-nav {
@@ -537,6 +563,10 @@ h6 a {
 .experience .abt-list li span {
   font-weight: 500;
 }
+.experience .abt-list li a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
 
 /*--------------------------------------------------------------
 # projects
@@ -562,20 +592,6 @@ h6 a {
   transition: all 0.2s ease-in;
   border-radius: 12px;
   overflow: hidden;
-}
-.projects .img-link::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(34, 144, 118, 0.4);
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-.projects .img-link:hover::before {
-  background-color: transparent;
 }
 .projects .project-text .p-t {
   margin-bottom: 15px;

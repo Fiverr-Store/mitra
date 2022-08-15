@@ -137,3 +137,31 @@ h6 a {
     }
   }
 }
+
+/*--------------------------------------------------------------
+# custom-modal
+--------------------------------------------------------------*/
+.custom-modal{
+  .modal-content{
+    background-color: #112240;
+    border: 0;
+  }
+  .modal-header{
+    border-color: #283f67;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    h5{
+      font-size: 17px;
+    }
+  }
+  .btn-close-1{
+    border: 0;
+    outline: none;
+    background: none;
+    color: red;
+    font-size: 20px;
+  }
+  p{
+    font-size: 15px;
+  }
+}
