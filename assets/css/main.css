@@ -501,7 +501,16 @@ h6 a {
   }
 }
 .experience .custom-tabs {
-  margin-left: 15px;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .experience .custom-tabs {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    margin-left: 0;
+  }
 }
 .experience .custom-tabs .nav-link {
   text-align: start;
@@ -517,6 +526,18 @@ h6 a {
 .experience .custom-tabs .nav-link:not(:last-child) {
   margin-bottom: 16px;
 }
+@media only screen and (max-width: 767px) {
+  .experience .custom-tabs .nav-link:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 24px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .experience .custom-tabs .nav-link:not(:last-child) {
+    margin-right: 18px;
+    font-size: 15px;
+  }
+}
 .experience .custom-tabs .nav-link::before {
   content: "";
   position: absolute;
@@ -530,6 +551,18 @@ h6 a {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
+}
+@media only screen and (max-width: 767px) {
+  .experience .custom-tabs .nav-link::before {
+    -webkit-transform: none;
+            transform: none;
+    top: unset;
+    right: unset;
+    width: 100%;
+    height: 1.5px;
+    bottom: -2px;
+    left: 0;
+  }
 }
 .experience .custom-tabs .nav-link.active {
   color: var(--primary-color);
@@ -652,6 +685,13 @@ h6 a {
 .projects .project-text .p-t h5 {
   font-size: 24px;
   font-weight: 700;
+}
+.projects .project-text .pro-tags span {
+  display: inline-block;
+  font-size: 14px;
+}
+.projects .project-text .pro-tags span:not(:last-child) {
+  margin-right: 5px;
 }
 .projects .pro-single {
   background-color: #112240;
