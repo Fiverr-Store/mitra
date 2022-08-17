@@ -688,7 +688,7 @@ h6 a {
 }
 .projects .project-text .pro-tags span {
   display: inline-block;
-  font-size: 14px;
+  font-size: 12px;
 }
 .projects .project-text .pro-tags span:not(:last-child) {
   margin-right: 5px;
