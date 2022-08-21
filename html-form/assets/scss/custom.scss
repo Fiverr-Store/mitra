@@ -99,6 +99,9 @@ p{
   .info{
     font-size: 14px;
     color: #f81414;
+    @media only screen and (max-width: 482px) {
+      font-size: 13px;
+     }
   }
   .footer{
     padding-top: 10px;
@@ -106,6 +109,9 @@ p{
     P{
       font-size: 14px;
       font-style: italic;
+      @media only screen and (max-width: 482px) {
+        font-size: 13px;
+       }
     }
     a{
       text-decoration: underline;
