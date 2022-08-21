@@ -116,6 +116,10 @@ p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
   border: 0;
   background-color: #E77B08;
   color: #fff;
@@ -128,6 +132,11 @@ p {
 }
 .main-box .btn-submit:hover {
   background-color: #fd9424;
+}
+@media only screen and (max-width: 991px) {
+  .main-box .btn-submit {
+    width: 100%;
+  }
 }
 .main-box .row {
   border-bottom: 1px solid #eee;

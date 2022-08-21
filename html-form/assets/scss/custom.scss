@@ -87,6 +87,8 @@ p{
   .btn-submit{
     text-decoration: none;
     display: inline-flex;
+    justify-content: center;
+    text-align: center;
     border: 0;
     background-color: #E77B08;
     color: #fff;
@@ -97,6 +99,9 @@ p{
     transition: all .2s ease-in;
     &:hover{
       background-color: #fd9424;
+    }
+    @media only screen and (max-width: 991px) {
+     width: 100%;
     }
   }
   .row{
