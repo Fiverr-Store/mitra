@@ -264,8 +264,17 @@ padding: 40px 0px 60px 0px;
       margin-bottom: 12px;
     }
     p{
+      display: flex;
       font-size: 15px;
       font-weight: 500;
+      i{
+        position: relative;
+        bottom: 2px;
+        font-style: normal;
+        font-size: 18px;
+        color: var(--primary-color);
+        margin-right: 6px;
+      }
     }
     .card-tags{
       margin-top: auto;

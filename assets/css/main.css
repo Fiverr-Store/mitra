@@ -742,8 +742,19 @@ h6 a {
   margin-bottom: 12px;
 }
 .cards-sec .card-single p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 15px;
   font-weight: 500;
+}
+.cards-sec .card-single p i {
+  position: relative;
+  bottom: 2px;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--primary-color);
+  margin-right: 6px;
 }
 .cards-sec .card-single .card-tags {
   margin-top: auto;
